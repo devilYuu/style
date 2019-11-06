@@ -2,13 +2,17 @@
 <script src="./jquery.bg.js"></script>
 
 <div>哥哥点我！点我！</div>
-
+<div>哥哥点我！上我！</div>
 <script>
 
 // console.log($('div'))
 
-    $('div')
+    $('div:eq(0)')
         .bg('green')
+        .fontC('red')
+    
+     $('div:eq(1)')
+        .bg('blue')
         .fontC('red')
 
 </script>
