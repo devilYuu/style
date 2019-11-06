@@ -14,6 +14,6 @@
         return this
     }
 
-    congsole.log(11111111111111111)
+    congsole.log(11111111111111111)  //校验冲突
 
 })()
