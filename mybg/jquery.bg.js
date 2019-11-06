@@ -14,6 +14,6 @@
         return this
     }
 
-    
+    console.log(2222) //校验冲突
 
 })()
